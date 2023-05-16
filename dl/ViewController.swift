@@ -10,8 +10,7 @@ import UIKit
 
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    let urlArray = ["http://google.com", "https://apple.com"]
-    
+
     let dict = ["Account": "shutterfly-staging://mobile/v2/screens/account",
                 "Decor": "shutterfly-staging://mobile/v2/categories/decor",
                 "Cases": "shutterfly-staging://mobile/v2/categories/cases",
