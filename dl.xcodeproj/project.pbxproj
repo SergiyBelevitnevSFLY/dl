@@ -16,6 +16,7 @@
 		E40CFB0C2A136D6800778F51 /* dlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CFB0B2A136D6800778F51 /* dlTests.swift */; };
 		E40CFB162A136D6800778F51 /* dlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CFB152A136D6800778F51 /* dlUITests.swift */; };
 		E40CFB182A136D6800778F51 /* dlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CFB172A136D6800778F51 /* dlUITestsLaunchTests.swift */; };
+		E40CFB252A137AFD00778F51 /* DictExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CFB242A137AFD00778F51 /* DictExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E40CFB112A136D6800778F51 /* dlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40CFB152A136D6800778F51 /* dlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dlUITests.swift; sourceTree = "<group>"; };
 		E40CFB172A136D6800778F51 /* dlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E40CFB242A137AFD00778F51 /* DictExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E40CFAFD2A136D6700778F51 /* Assets.xcassets */,
 				E40CFAFF2A136D6700778F51 /* LaunchScreen.storyboard */,
 				E40CFB022A136D6700778F51 /* Info.plist */,
+				E40CFB242A137AFD00778F51 /* DictExtension.swift */,
 			);
 			path = dl;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				E40CFAF92A136D6500778F51 /* ViewController.swift in Sources */,
 				E40CFAF52A136D6500778F51 /* AppDelegate.swift in Sources */,
 				E40CFAF72A136D6500778F51 /* SceneDelegate.swift in Sources */,
+				E40CFB252A137AFD00778F51 /* DictExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +449,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
